@@ -1,0 +1,14 @@
+#Solucionar el problema a la hora de insalar coc                                                                                                                   
+cd .vim/bundle/coc.nvim/bin                                                                                                                                       
+npm install -g yarn                                                                                                                                               
+curl --compressed -o- -L https://yarnpkg.com/install.sh | bash                                                                                                    
+yarn install                                                                                                                                                      
+yarn build
+
+#Agregar los siguientes servidores de lengujes
+CocInstall coc-tsserver
+CocInstall coc-html
+CocInstall coc-flutter
+CocInstall coc-pyright
+CocInstall coc-json
+
