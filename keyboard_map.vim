@@ -1,7 +1,7 @@
 let mapleader=" "
 nmap <Leader>s <Plug>(easymotion-s2)
 nmap <Leader>nt :NERDTreeFind<CR>
-nmap <Leader>w :w<CR>
+nmap <Leader>s :w<CR>
 nmap <Leader>q :q<CR>
 noremap <up> <nop>
 nnoremap <down> <nop>
@@ -19,3 +19,10 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 xmap <leader>a  <Plug>(coc-codeaction-selected)
 nmap <leader>a  <Plug>(coc-codeaction-selected)
+
+"nnoremap <Leader>> 10<C-w>>
+"nnoremap <Leader>< 10<C-w><
+
+map <Leader>p :Files<CR>
+map <Leader>h :Lines<CR>
+map <Leader>b :NERDTree<CR>
